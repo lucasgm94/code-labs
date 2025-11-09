@@ -1,3 +1,3 @@
-📚 **Disclaimer**  
-The datasets and SQL scripts in this repository are part of practice material from a course and are **not my original creation**.  
-They are used **for educational purposes only**.
+📚 **Source**  
+The database schema and dataset used in this repository are part of the exercises from the course  
+**“SQL TOTAL - Domina Bases de Datos de 0 a Avanzado en 12 Días” on Udemy**, used here strictly for learning and practice purposes.
