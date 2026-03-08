@@ -1,4 +1,4 @@
-#Proyecto 3
+--Proyecto 3
 SELECT
 	series.titulo AS 'titulo_de_la_serie',
     series.año_lanzamiento AS 'año_de_lanzamiento',

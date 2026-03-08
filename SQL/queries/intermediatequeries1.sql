@@ -1,17 +1,17 @@
-#SUBQUERIES
+--SUBQUERIES
 SELECT * FROM episodios
 WHERE serie_id = (SELECT serie_id FROM series WHERE titulo = 'Breaking Bad') ORDER BY episodio_id;
 
 SELECT titulo FROM series
 WHERE serie_id IN (SELECT serie_id FROM episodios GROUP BY serie_id HAVING AVG(rating_imdb)>9);
 
-#CONDICIONAL IF
+--CONDICIONAL IF
 SELECT titulo, rating_imdb, IF (rating_imdb >= 7, 'Alto', 'Bajo') AS 'categoria_rating' FROM episodios;
 
 SELECT nombre, YEAR(fecha_nacimiento) AS 'año_nacimiento',
 IF (YEAR(fecha_nacimiento)>1994,'Joven','Viejo') AS 'categoria_actores' FROM actores ORDER BY año_nacimiento DESC;
 
-#CONDICIONAL CASE
+--CONDICIONAL CASE
 SELECT
 	titulo,
     año_lanzamiento,
@@ -37,7 +37,7 @@ SELECT titulo,
     END AS 'Categoría de Género'
     FROM series;
 
-#FUNCIÓN CAST
+--FUNCIÓN CAST
 DESCRIBE series;
 
 DESCRIBE actores;
@@ -45,7 +45,7 @@ DESCRIBE actores;
 SELECT * FROM episodios
 WHERE CAST(fecha_estreno AS DATE) > '2010-01-01' ORDER BY fecha_estreno;
 
-#FUNCIONES DE FECHA Y HORA
+--FUNCIONES DE FECHA Y HORA
 SELECT fecha_estreno, YEAR(fecha_estreno) AS 'Año', MONTH(fecha_estreno) AS 'Mes', DAY(fecha_estreno) AS 'Día' FROM episodios;
 
 SELECT fecha_estreno,
@@ -72,7 +72,7 @@ SELECT
     RIGHT(titulo, 3) AS fin_titulo
 FROM series;
 
-#FUNCIONES MATEMÁTICAS
+--SFUNCIONES MATEMÁTICAS
 SELECT titulo, duracion/60.0 AS hora_completa, ROUND(duracion/60.0,0) AS horas_completa_redondeada FROM episodios;
 
 SELECT titulo, duracion, CEILING(duracion/60.0) AS horas_completas FROM episodios; -- redondea para arriba

@@ -1,3 +1,4 @@
+--Proyecto 2
 -- ¿Qué géneros son más prevalentes en la base de datos NetflixDB? 
 -- Genera una lista de los distintos géneros y la cantidad de series por cada uno.
 SELECT genero, COUNT(genero) -- COUNT (*) -- 

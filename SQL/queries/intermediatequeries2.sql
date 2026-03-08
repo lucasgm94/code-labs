@@ -1,4 +1,4 @@
-#INNER JOIN
+--INNERJOIN
 SELECT * FROM series INNER JOIN actuaciones ON series.serie_id = actuaciones.serie_id;
 
 SELECT titulo, personaje FROM series INNER JOIN actuaciones ON series.serie_id = actuaciones.serie_id;
@@ -10,7 +10,7 @@ SELECT s.titulo, a.personaje FROM series AS S INNER JOIN actuaciones AS a ON s.s
 SELECT series.titulo AS titulo_serie, episodios.titulo AS titulo_episodio, episodios.duracion FROM series
 INNER JOIN episodios ON series.serie_id = episodios.serie_id WHERE series.titulo = 'Stranger Things' ORDER BY duracion DESC;
 
-#LEFT JOIN
+--LEFTJOIN
 SELECT series.titulo AS 'titulo_serie', episodios.titulo AS 'titulo_episodio', episodios.duracion AS 'duracion' FROM series
 LEFT JOIN episodios ON series.serie_id = episodios.serie_id ORDER BY titulo_serie;
 
@@ -21,7 +21,7 @@ ON series.serie_id = episodios.serie_id WHERE series.titulo = 'Stranger Things' 
 SELECT actores.nombre AS 'nombre_actor', actores.fecha_nacimiento AS 'fecha_nacimiento', actuaciones.personaje AS 'personaje' FROM actores
 LEFT JOIN actuaciones ON actores.actor_id = actuaciones.actor_id ORDER BY actores.nombre;
 
-#RIGHT JOIN
+--RIGHTJOIN
 SELECT series.titulo AS 'titulo_de_la_serie', episodios.titulo AS 'titulo_del_episodio' FROM series
 RIGHT JOIN episodios ON episodios.serie_id = series.serie_id ORDER BY series.titulo;
 
@@ -30,12 +30,12 @@ episodios.duracion AS 'Duración' FROM episodios RIGHT JOIN series ON
 series.serie_id = episodios.serie_id
 WHERE episodios.duracion > 30 ORDER BY series.titulo;
 
-#UNION ALL
+--UNIONALL
 SELECT * FROM series WHERE genero = 'Comedia'
 UNION ALL
 SELECT * FROM series WHERE genero = 'Fantasía';
 
-#UNION 
+--UNION 
 SELECT titulo, genero FROM series WHERE genero = 'Comedia'
 UNION
 SELECT titulo, genero FROM series WHERE genero = 'Fantansía';

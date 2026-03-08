@@ -1,3 +1,4 @@
+--Proyecto 1
 -- Pregunta 1
 -- ¿Quien es el actor o actriz que ha participado en la mayor cantidad de series?
 SELECT actor_id, COUNT(serie_id) AS cantidad_de_actuaciones FROM actuaciones GROUP BY actor_id HAVING COUNT(serie_id) > 1;
