@@ -1,5 +1,0 @@
-En la terminal Git Bash de Pycharm, usar estos comandos en orden para actulizar el portfolio:
-
-git add .
-git commit -m "Update: Added new Python exercises and SQL changes"
-git push origin main
