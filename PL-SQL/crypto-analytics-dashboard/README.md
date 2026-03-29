@@ -17,7 +17,7 @@ A professional cryptocurrency monitoring dashboard built with **Oracle APEX 24.x
 * **Dark Mode UI:** Optimized using the Oracle Universal Theme.
 
 ## 📊 Preview
-![Bitcoin Trend Dashboard](./image_fc0742.png)
+![Bitcoin Trend Dashboard](./screenshots/crypto-main-dashboard.png)
 
 ## 📥 Installation
 1. Run `crypto-dashboard-table.sql` and `crypto-data.sql` in your Oracle SQL Workshop.
