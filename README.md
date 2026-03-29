@@ -1,4 +1,4 @@
-# 🚀 code-labs
+# 🔬 code-labs: My Development Sandbox
 
 ### 🧠 Objective
 A personal sandbox for hands-on practice with **SQL**, **PL/SQL**, and **Python**. This repository stores exercises, small projects, and code snippets developed while learning and strengthening programming skills.
