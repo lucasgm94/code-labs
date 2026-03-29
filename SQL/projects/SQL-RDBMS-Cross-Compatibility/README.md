@@ -37,17 +37,17 @@ The core objective of this project was to design a normalized database for a str
 
 ### 1. MySQL Implementation
 Demonstrating the use of standard `INT AUTO_INCREMENT` and relational integrity.
-* **Schema Setup:** ![MySQL Setup](./screenshots/mysql-full-setup-03.png)
+* **Schema Setup:** ![MySQL Setup](./screenshots/my-sql-full-setup-03.png)
 * **Query Results:** ![MySQL Results](./screenshots/mysql-query-results.png)
 
 ### 2. PostgreSQL Implementation
 Adapted for `SERIAL` data types and strict schema handling in pgAdmin.
-* **Schema Setup:** ![Postgres Setup](./screenshots/postgres-full-setup-09.png)
+* **Schema Setup:** ![Postgres Setup](./screenshots/postgre-full-setup-09.png)
 * **Query Results:** ![Postgres Results](./screenshots/postgre-query-results.png)
 
 ### 3. SQL Server (T-SQL) Implementation
 Utilizing `IDENTITY` columns and `NVARCHAR` for professional-grade Unicode support.
-* **Schema Setup:** ![SQL Server Setup](./screenshots/sqlserver-full-setup-06.png)
+* **Schema Setup:** ![SQL Server Setup](./screenshots/sql-server-full-setup-06.png)
 * **Query Results:** ![SQL Server Results](./screenshots/sqlserver-query-results.png)
 
 ---
