@@ -4,6 +4,7 @@ A professional cryptocurrency monitoring dashboard built with **Oracle APEX 24.x
 
 ## 📁 Project Structure
 * **`/readable`**: Human-readable source code of the APEX application.
+* **`/screenshots`**: Visual evidence of the developed interfaces and dashboard results.
 * **`app-code-apex.sql`**: Full application export (App ID: 163159).
 * **`crypto-dashboard-table.sql`**: SQL script for the `CRYPTO_DASHBOARD` table structure.
 * **`crypto-data.sql`**: Historical dataset (30 days of BTC records).
