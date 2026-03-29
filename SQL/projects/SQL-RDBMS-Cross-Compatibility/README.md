@@ -63,3 +63,11 @@ SELECT
 FROM Series s
 JOIN Actuaciones act ON s.serie_id = act.serie_id
 JOIN Actores a ON act.actor_id = a.actor_id;
+```
+---
+
+## 💡 About this Project
+I built this lab as a personal challenge to prove that data skills are universal. 
+Even though my primary background isn't in Software Engineering, I believe that 
+understanding how RDBMS work is essential for any modern professional. 
+It’s about logic, not just syntax.
