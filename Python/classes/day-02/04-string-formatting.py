@@ -9,7 +9,7 @@ print("Mis números son {} y {}".format(x,y)) #En format tiene que ser misma can
 
 print("Mis números son {} y {}, y la suma de ambos es {}".format(x,y,x+y)) #En format tiene que ser misma cantidad de llaves
 
-#Cadenas Literales
+#Cadenas literales
 
 color = "rojo"
 matricula = 352478
