@@ -50,4 +50,4 @@ The lab provides a clear visual distinction between security levels:
 * **Green:** Secure (High Entropy / User Password).
 
 ---
-*Developed by [Your Name/Username] - Portfolio 2026*
+*Developed by Lucas Martinez*
