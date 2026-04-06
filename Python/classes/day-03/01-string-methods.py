@@ -2,7 +2,7 @@
 
 texto = "Este es el texto de Lucas"
 
-resultado = texto.upper() #Dentro de los () se pueden poner parámetros para el método
+resultado = texto.upper() #Dentro de los () se pueden poner parámetros para el metodo
 
 print(resultado)
 
